@@ -10,13 +10,13 @@ let a = document ;
 // })
 
 a = document.links;
-link = 'Javascript'
+link = 'javascript'
 
 // console.log(a);
 //Below is the code to determine the links in the webpage having the content 'Javascript'
 Array.from(a).forEach(function(element) {   
         
-    if (element.text.includes(link))
+    if (element.href.includes(link))
     {
     console.log(element);
     }})

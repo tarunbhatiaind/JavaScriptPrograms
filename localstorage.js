@@ -15,6 +15,6 @@ for (let i = 0 ; i<=name.length;i++){ //elements can be accessed like normally
 }
 
 //console.log(name);
-
+//Session storage -- delete after browser is closed but local storage remains 
 sessionStorage.setItem('Name','Tarun');
 sessionStorage.setItem('Name2','Aman');

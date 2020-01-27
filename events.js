@@ -14,7 +14,7 @@ let element = document.querySelector('.disp2')
    Array.from(variable3).forEach(function(element){
         console.log(element);
         })
-    let variable4 = e.offsetX;
+    let variable4 = e.offsetX; //or offsetY
     console.log(variable4)    ;
     })
 
